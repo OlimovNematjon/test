@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 0.05rem;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+}
+
+.img{
+    position: relative;
+    width: 350px;
+}
+
+.img > img{
+    width: 100%;
+}
+
+.img > figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 7px;
+    background: #3333;
+    backdrop-filter: blur(2px);
+}
+
+.img > figcaption h3{
+    color:#fff;
+    font-size: 24px;
+}
+
+.img > figcaption p{
+    font-size: 16px;
+    color: #ffffffc6;
+}
